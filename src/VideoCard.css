@@ -4,10 +4,12 @@
   width: 100%;
   height: 100%;
   scroll-snap-align: start;
+  background-color: pink ;
 }
 
 .videoCard__player {
   object-fit: fill;
   width: 100%;
   height: 100%;
+  border: 1px solid black;
 }

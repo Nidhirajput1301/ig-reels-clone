@@ -25,12 +25,19 @@ function App() {
         {/* <Video /> */}
 
 
-        <VideoCard />
+        <VideoCard 
+          channel='cleverqazi'
+          avatarSrc=''
+          song='Test song - ssssangha'
+          url='./Videos/sample-mp4-file.mp4'
+          likes={950}
+          shares={300}
+        />
         <VideoCard />
         <VideoCard />
         <VideoCard />
         <VideoCard /> 
-        
+
       </div>
     </div>
   );
